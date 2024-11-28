@@ -1,6 +1,6 @@
 nginx
-mysql:5.7.30
 tomcat:8.5.100-jdk8
+mysql:5.7.30
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
