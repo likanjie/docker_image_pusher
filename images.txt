@@ -9,3 +9,4 @@ docker.elastic.co/kibana/kibana:7.17.24
 docker.elastic.co/elasticsearch/elasticsearch:7.17.24
 #支持指定架构
 --platform=linux/arm64/v8 xiaoyaliu/alist
+ 
