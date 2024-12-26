@@ -98,8 +98,7 @@ jobs:
             fi       
         done < images.txt'
         
-        echo "docker manifest inspect mysql:5.7.44"
-        docker manifest inspect mysql:5.7.44
+
         
         
         while IFS= read -r line || [ -n "$line" ]; do
@@ -138,6 +137,9 @@ jobs:
                   name_space_prefix="${name_space}_"
                fi
             fi
+
+            echo "docker manifest inspect mysql:5.7.44"
+            docker manifest inspect mysql:5.7.44
             
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
