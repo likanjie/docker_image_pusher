@@ -138,8 +138,6 @@ jobs:
                fi
             fi
 
-            echo "docker manifest inspect mysql:5.7.44"
-            docker manifest inspect mysql:5.7.44
             
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
