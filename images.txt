@@ -12,4 +12,4 @@ bitnami/kafka:3.1.1
 #支持指定架构
 # --platform=linux/amd64 xiaoyaliu/alist
 # --platform=linux/arm64 mysql:5.7.44
---platform=linux/arm64 bitnami/kafka:3.6.2
+#--platform=linux/arm64 bitnami/kafka:3.6.2
