@@ -1,3 +1,5 @@
+gitlab/gitlab-ce
+jenkins/jenkins:lts
 #nginx
 #tomcat:8.5.100-jdk8
 #mysql:5.7.44
@@ -8,8 +10,8 @@
 #docker.elastic.co/kibana/kibana:7.17.24
 #docker.elastic.co/elasticsearch/elasticsearch:7.17.24
 #gitlab/gitlab-ce
-bitnami/kafka:3.1.1
+#bitnami/kafka:3.1.1
 #支持指定架构
 # --platform=linux/amd64 xiaoyaliu/alist
 # --platform=linux/arm64 mysql:5.7.44
---platform=linux/arm64 bitnami/kafka:3.6.2
+#--platform=linux/arm64 bitnami/kafka:3.6.2
