@@ -1,5 +1,6 @@
-gitlab/gitlab-ce
-jenkins/jenkins:lts
+crmeb_php
+#gitlab/gitlab-ce
+#jenkins/jenkins:lts
 #nginx
 #tomcat:8.5.100-jdk8
 #mysql:5.7.44
