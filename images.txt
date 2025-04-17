@@ -1,4 +1,5 @@
-openjdk:17-jdk-slim
+registry
+#openjdk:17-jdk-slim
 #gitlab/gitlab-ce
 #jenkins/jenkins:lts
 #nginx
