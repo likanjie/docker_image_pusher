@@ -1,4 +1,5 @@
-registry
+minio/minio:latest
+#registry
 #openjdk:17-jdk-slim
 #gitlab/gitlab-ce
 #jenkins/jenkins:lts
